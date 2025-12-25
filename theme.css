@@ -206,7 +206,7 @@
       flex: 0 0 45%;
       height: 350px;
       background: #ddd;
-      background-image: url('IMG_20251213_211414.jpg');
+      background-image: url('album/upacara.jpg');
       background-size: cover;
       background-position: center;
     }
@@ -911,4 +911,5 @@
       footer .copyright {
         font-size: 16px;
       }
+
     }

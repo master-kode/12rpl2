@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barudak RPL 2 - Website</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Coda&family=Outfit:wght@400;500;600;700&family=Poppins:wght@400;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paprika&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="theme.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-symbol">&lt;/&gt;</div>
+    <div class="brand-name">
+      <div>BARUDAK RPL 2</div>
+      <div>SMKASIH</div>
+    </div>
+    
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <nav class="nav-menu" id="navMenu">
+      <a href="#" class="nav-item active">Beranda</a>
+      <a href="#tentang" class="nav-item">Tentang</a>
+      <a href="#struktur" class="nav-item">Struktur</a>
+      <a href="#kenangan" class="nav-item">Kenangan</a>
+      
+    
+    <button class="login-btn">Log in</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>WELCOME TO WEBSITE</h1>
+    <div class="subtitle">BARUDAK XII RPL 2 SMKASIH</div>
+    <p>Ngoding bareng, pusing bareng, sukses bareng. <br>
+      XII RPL 2 always on progress. <br>
+      Dan muridnya di sini asix asix</p>
+    <button class="cta-btn">Lihat Selengkapnya</button>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section class="tentang" id="tentang">
+    <h2 class="section-title">Tentang Kami</h2>
+    <div class="tentang-content">
+      <div class="tentang-image" style="background-image: url('/album/IMG_20251213_211414\ \(1\).jpg');"></div>
+      <div class="tentang-text">
+        <h3>Siapa Kami ?</h3>
+        <p>Kami adalah XII RPL 2, kelas yang isinya ngoding, mikir keras, ketawa bareng, dan kadang debat gara-gara satu error kecil. Di sini kami belajar bikin program, dan nyari solusi bareng-bareng. Bagi kami, error itu bukan musuh, tapi tanda kalau kami lagi belajar. Dari nol sampai jadi, dari bingung sampai paham, semua dijalanin bareng sebagai satu tim.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Struktur Kelas -->
+  <section class="struktur" id="struktur">
+    <h2 class="section-title">Struktur Kelas</h2>
+    <div class="struktur-container">
+      <!-- Wali Kelas sendiri di atas -->
+      <div class="struktur-wali">
+        <div class="struktur-card">
+          <div class="struktur-card-title">Wali Kelas</div>
+          <div class="struktur-card-bg">
+            <div class="struktur-card-name">Apriliya Rasmadiowati, S.Kom., Gr.</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Grid 2 kolom untuk struktur siswa -->
+      <div class="struktur-grid">
+        <div class="struktur-card">
+          <div class="struktur-card-title">Ketua Kelas</div>
+          <div class="struktur-card-bg">
+            <div class="struktur-card-name">Ahmad Lukmanur Risqi</div>
+          </div>
+        </div>
+        
+        <div class="struktur-card">
+          <div class="struktur-card-title">Wakil Ketua Kelas</div>
+          <div class="struktur-card-bg">
+            <div class="struktur-card-name">Moch. Husen</div>
+          </div>
+        </div>
+        
+        <div class="struktur-card">
+          <div class="struktur-card-title">Sekretaris</div>
+          <div class="struktur-card-bg tall">
+            <div class="struktur-card-name">Sakila Asbaul Khusna<br>Rico Dwi Alinsky</div>
+          </div>
+        </div>
+        
+        <div class="struktur-card">
+          <div class="struktur-card-title">Bendahara</div>
+          <div class="struktur-card-bg tall">
+            <div class="struktur-card-name">Ismiah Anisa Nurfadila<br>Abd. Rohman</div>
+          </div>
+        </div>
+        
+        <div class="struktur-card">
+          <div class="struktur-card-title">Keamanan</div>
+          <div class="struktur-card-bg">
+            <div class="struktur-card-name">Moch. Dimas Prawiro Adianto</div>
+          </div>
+        </div>
+        
+        <div class="struktur-card">
+          <div class="struktur-card-title">Peralatan</div>
+          <div class="struktur-card-bg">
+            <div class="struktur-card-name">Restu Rahwawan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Album Kenangan - Using PNG decorations -->
+  <section class="album" id="kenangan">
+    <!-- Decorative Elements menggunakan PNG asli -->
+    <div class="album-decoration deco-star-1">
+      <img src="img/12.png" alt="">
+    </div>
+    <div class="album-decoration deco-star-2">
+      <img src="img/12.png" alt="">
+    </div>
+    
+    <div class="album-decoration deco-scribble-1">
+      <img src="img/1.png" alt="">
+    </div>
+    <div class="album-decoration deco-scribble-2">
+      <img src="img/7.png" alt="">
+    </div>
+    
+    <div class="album-decoration deco-lines-1">
+      <img src="img/8.png" alt="">
+    </div>
+    <div class="album-decoration deco-lines-2">
+      <img src="img/9.png" alt="">
+    </div>
+    
+    
+    <div class="album-decoration deco-paper-plane">
+      <img src="img/5.png" alt="">
+    </div>
+    
+    <h2 class="section-title">Album Kenangan</h2>
+    <div class="album-container">
+      <!-- Grid 2x2 untuk 4 foto pertama -->
+      <div class="album-grid-top">
+        <div class="album-card">
+          <div class="album-card-title">Upacara 17 Agustus</div>
+          <div class="album-card-image" style="background-image: url('/album/IMG_20251213_211414\ \(1\).jpg');"></div>
+        </div>
+        
+        <div class="album-card">
+          <div class="album-card-title">Acara Maulid Nabi</div>
+          <div class="album-card-image" style="background-image: url('/album/IMG-20250904-WA0035.jpg');"></div>
+        </div>
+        
+        <div class="album-card">
+          <div class="album-card-title">Setelah UKK</div>
+          <div class="album-card-image" style="background-image: url('/album/IMG-20251219-WA0000.jpg');"></div>
+        </div>
+        
+        <div class="album-card">
+          <div class="album-card-title">Hari Pahlawan</div>
+          <div class="album-card-image" style="background-image: url('/album/motion_photo_5873174653185040905.jpg');"></div>
+        </div>
+      </div>
+      
+      <!-- Foto terakhir centered -->
+      <div class="album-grid-bottom">
+        <div class="album-card">
+          <div class="album-card-title">Hari Guru</div>
+          <div class="album-card-image" style="background-image: url('/album/IMG-20251213-WA0014.jpg');"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="motto">XII RPL 2 Ngoding bareng, belajar bareng, sukses bareng 🚀</div>
+    <div class="copyright">© 2025 Barudak RPL 2, All Rights Reserved</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navMenu = document.getElementById('navMenu');
+      navMenu.classList.toggle('active');
+    }
+    
+    // Smooth scrolling untuk navigasi
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+            // Tutup menu mobile setelah klik
+            document.getElementById('navMenu').classList.remove('active');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
